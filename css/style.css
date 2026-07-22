@@ -517,7 +517,11 @@ h1 {
 }
 
 /* レスポンシブ設計（最新のMedia Query記法） */
-@media (width >= 680px) {
+@media (width >= 600px) {
+  .kv::before {
+     top: 53%;
+    right: 42%;
+  }
   .ttl1 {
     font-size: 24px;
 
